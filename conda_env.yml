@@ -1,0 +1,8 @@
+name: stranghh
+channels:
+  - defaults
+dependencies:
+  - python=3.8.10
+  - pip
+  - pip:
+    - --requirement pip_requirements.txt
