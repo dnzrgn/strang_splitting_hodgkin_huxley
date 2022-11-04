@@ -13,8 +13,23 @@ conda activate stranghh
 ### Venv
 Tested on python version 3.8.10
 ```
-python3 -m venv ~/venv/stranghh
-source ~/venv/stranghh/bin/activate
+python3 -m venv ~/stranghh_venv/stranghh
+source ~/stranghh_venv/stranghh/bin/activate
 pip install --upgrade pip setuptools
 pip install -r pip_requirements.txt
+```
+
+## Run
+Example usage can be found in `example.ipynb`.
+
+## Remove
+### Conda
+```
+conda deactivate
+conda env remove -n stranghh
+```
+### Venv
+```
+deactivate
+rm -r ~/stranghh_venv
 ```
