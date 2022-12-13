@@ -33,3 +33,7 @@ conda env remove -n stranghh
 deactivate
 rm -r ~/stranghh_venv
 ```
+
+## TODO
+- Add spike detection mechanism.
+- Modify to enable vectorized computation of populations and batches.
